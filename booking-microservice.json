@@ -1,0 +1,13 @@
+{
+    "spring.datasource.url":"jdbc:mysql://localhost:3306/bookingdb",
+    "spring.datasource.username":"usuario",
+    "spring.datasource.password":""
+}
+/* 
+iniciar vault server:
+vault server --dev --dev-root-token-id="00000000-0000-0000-0000-000000000000"
+
+
+para enviar los valores a vault ejecutar:
+vault kv put secret/booking-microservice @booking-microservice.json
+*/
